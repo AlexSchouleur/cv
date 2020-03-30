@@ -1,0 +1,137 @@
+/**************TAG SELECTORS**************/
+body{
+  margin: 0;
+  text-align: center;
+  font-family: 'Merriweather', serif;
+}
+
+h1{
+  margin: 60px auto 0 auto;
+  font-family: 'Sacramento', cursive;
+  font-size: 5.625rem;
+  color:#66BFBF;
+}
+
+h2{
+  font-family: 'Montserrat', sans-serif;
+  font-size: 2rem;
+  color:#66BFBF;
+  line-height: 0.5;
+}
+
+h3{
+  font-family: 'Montserrat', sans-serif;
+  color: #11999E;
+}
+
+a{
+  color:#11999E;
+}
+
+hr{
+  border-style:none;
+  border-top:7px dotted #EAF6F6;
+  width: 7%;
+  margin-bottom: 50px;
+}
+
+
+
+
+
+/**************CLASS SELECTORS**************/
+/* NICE COLOR: #faf4f4 */
+
+.top-div{
+  background-color: #EAF6F6;
+  padding: 20px;
+  padding-bottom: 0;
+  padding-top: 50px;
+  margin-bottom: 0;
+}
+
+.top-cloud{
+  position: absolute;
+  right:20%;
+}
+
+.bottom-cloud{
+  position: absolute;
+  left: 20%;
+  top: 300px;
+}
+
+.tagline{
+  font-weight: normal;
+}
+
+.profile-picture{
+  border-radius: 100%;
+  margin: 30px auto 30px auto;
+}
+
+.skill-row{
+  margin: 40px auto 40px auto;
+  width: 50%;
+  text-align: left;
+  line-height: 2;
+}
+
+.programing-pic{
+  border-radius: 100%;
+  margin-right: 30px;
+  width: 170px;
+  float: left;
+}
+
+.chillies-pic{
+  border-radius: 100%;
+  margin-left: 30px;
+  width: 170px;
+  float: right;
+}
+
+.description-profile{
+  color: #40514E;
+  margin: 40px;
+}
+
+.bottom-container{
+  padding: 40px;
+  background-color:#66BFBF;
+  margin-top: 30px;
+}
+
+
+.myButton {
+	box-shadow:inset 0 1px 0 0 #f5978e;
+	background:linear-gradient(to bottom, #f24537 5%, #c62d1f 100%);
+	background-color:#f24537;
+	border-radius:6px;
+	display:inline-block;
+	cursor:pointer;
+	color:#ffffff;
+	font-family:Montserrat;
+	font-size:15px;
+	font-weight:bold;
+	padding:8px 24px;
+	text-decoration:none;
+	text-shadow:0 1px 0 #810e05;
+}
+.myButton:hover {
+	background:linear-gradient(to bottom, #c62d1f 5%, #f24537 100%);
+	background-color:#c62d1f;
+}
+.myButton:active {
+	position:relative;
+	top:1px;
+}
+
+.footer-link{
+  text-decoration: none;
+  color: #11999E;
+}
+
+.copyright{
+  color: #EAF6F6;
+}
